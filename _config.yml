@@ -28,6 +28,7 @@ permalink: /:categories/:year/:month/:day/:title/
 
 # Build settings
 markdown: kramdown
+mathjax: true
 # theme: minima
 remote_theme: chrisrhymes/bulma-clean-theme
 plugins:
