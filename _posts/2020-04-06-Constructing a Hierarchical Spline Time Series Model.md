@@ -14,6 +14,12 @@ The following properties were observed while configuring the model:
 2. Some portions of the data are missing
 3. Each layer within the model shared similar properties
 
+
+![]({{site.url}}/images/blog/sparsity_data.png)
+
+*Sparsity data*
+
+
 Data sparsity could be overcome by estimating B-Spline parameters, \\(\beta, w\\) for the overall period.
 
 A hierarchical model can be constructed, and its hyperpriors estimated using Markov Chain Monte-Carlo sampling to handle missing data.
