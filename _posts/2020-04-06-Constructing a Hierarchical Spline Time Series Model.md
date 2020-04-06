@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Model Composition: Construction a Hierarchical Spline Time Series Model"
+title: "Model Composition: Constructing a Hierarchical Spline Time Series Model"
 date: 2020-04-06 17:24:06 +0900
 author: "Jhin Woo Choi"
 categories: bayesian model
