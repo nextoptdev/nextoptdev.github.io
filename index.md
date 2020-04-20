@@ -23,7 +23,7 @@ Trend represents the overall change in the data, whether it's increasing, or dec
 
 Seasonality is the frequency in which the data is said to "recur". For example, a pizza parlor selling more pizzas on weekends can be represented by a weekly seasonality. 
 
-It is also important to note that multiple seasonality compoments can be present, and there are methods to represent that, such as through the Fourier Series.
+It is also important to note that multiple seasonality components can be present, and there are methods to represent that, such as through the Fourier Series.
 
 The remainder is data which can't be explained through trend and seasonality, and holds the uncertainty and random fluctuations present in the data.
 ### Hierarchical Survival Model
