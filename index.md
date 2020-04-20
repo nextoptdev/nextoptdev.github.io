@@ -21,11 +21,9 @@ In Time Series analysis, the data is usually split into 3 components; the Trend,
 
 Trend represents the overall change in the data, whether it's increasing, or decreasing. It can also be of another form.
 
-Seasonality is the frequency in which the data is said to "recur". For example, a pizza parlor selling more pizzas on weekends can be represented by a weekly seasonality. 
+Seasonality is the frequency in which the data is said to "recur". For example, a pizza parlor selling more pizzas on weekends can be represented by a weekly seasonality. It is also important to note that multiple seasonality components can be present, and there are methods to represent that, such as through the Fourier Series.
 
-It is also important to note that multiple seasonality components can be present, and there are methods to represent that, such as through the Fourier Series.
-
-The remainder is data which can't be explained through trend and seasonality, and holds the uncertainty and random fluctuations present in the data.
+The remainder is data which can't be explained through trend and seasonality, and holds the uncertainty and random fluctuations present in the data. In our case, we add additional features, such as holidays, weather, and supply flow to minimize the remainder.
 ### Hierarchical Survival Model
 ## Optimization
 ### Newsvendor Model
