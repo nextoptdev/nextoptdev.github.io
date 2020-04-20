@@ -6,6 +6,8 @@ author: "Shin Young Kim"
 categories: regression optimization
 ---
 
+# GSx Active Learning
+
 A problem I had with datasets having small amount of samples(for the sake of simplicity I set a criteria of <30) was that it's hard to get reasonably accurate prediction results. 
 
 Apparently, one of the methods used in said scenarios was *Active Learning*. Active learning is a method where given a set of data points, it only chooses up to $$ k $$ points, either by manual selection or a set criteria. It's often used in scenarios where data is abundant that not all can be labeled.
