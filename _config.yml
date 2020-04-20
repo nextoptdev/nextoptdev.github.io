@@ -33,7 +33,7 @@ mathjax: true
 remote_theme: chrisrhymes/bulma-clean-theme
 plugins:
   - jekyll-feed
-  - hekyll-include-cache
+  - jekyll-include-cache
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
