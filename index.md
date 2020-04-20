@@ -10,8 +10,9 @@ show_sidebar: true
  Nextopt uses a variety of models to forecast data based on a time series model.
 
 ## Our Model
-model description
+### Time Series Decomposition Model
+### Hierarchical Survival Model
 ## Optimization
-optimization description
+### Newsvendor Model
 ## Failure Rate Prediction
  failure rate prediction
