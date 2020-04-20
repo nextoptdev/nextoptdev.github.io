@@ -22,9 +22,9 @@ I tested the method with "Total number of phone calls to pizza delivery services
 
 *GSx* was implemented by using the absolute distance from the mean of the standarized values, which would be the absolute distance from 0. The data was divided into 24 train data points, and 6 test points. Additionally, the data showed a strong weekly seasonal frequency.
 
-![data plot, standarized]({{site.url}}/images/blog/2020-04-20/data_plot.png)
+![data plot, standardized]({{site.url}}/images/blog/2020-04-20/data_plot.png)
 
-*data plot, standarized*
+*data plot, standardized*
 
 A standard Linear Ridge model was used, with a Piecewise Trend and a Weekly Fourier feature added. I started with an initial value of $$ k = 10 $$, up to the length of the train set, 24.
 
